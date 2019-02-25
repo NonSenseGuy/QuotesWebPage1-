@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="quotes-inner" role="listbox">
+        <div class="item-active">
+            <img src="~/images/fdi-origen-eventos.jpg" alt="ASP.NET" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                    ¡Listo para celebrar! <br />Cotiza con nosotros y recibe las mejores Ofertas. <br />
+                 
+                </p>
+                <p>
+                    <a class="specialbut btn-default" href="@Url.Action("Create", "Events")">
+                        Quote your event
+                    </a>
+                    <a class="specialbut btn-default" href="@Url.Action("Index", "Events")">
+                        Evaluate quotes
+                    </a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    
+

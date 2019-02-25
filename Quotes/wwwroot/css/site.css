@@ -1,0 +1,64 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+/* Carousel */
+.carousel-caption p {
+    
+    font-size: 40px;
+    line-height: 1.4;
+
+}
+
+.specialbut {
+    border: 2px solid white;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    margin: 0 20px;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.btn {
+    border: 2px solid white;
+    color: slategrey;
+    margin: 0 20px;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.specialbut:hover {
+    cursor: pointer;
+    background: #e5a134;
+}
+
+
+
+.img-responsive{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.passwordBtn{
+    border: 2px solid gray;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
